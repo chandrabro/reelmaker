@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:#0f1115;color:#e5e7eb;font-family:system-ui,'Noto Sans Devanagari',sans-serif}
+.in{@apply bg-zinc-800 border border-zinc-700 rounded px-2 py-1 text-sm w-full}
+.btn{@apply bg-zinc-700 hover:bg-zinc-600 rounded px-2 py-1 text-sm inline-flex items-center gap-1}
